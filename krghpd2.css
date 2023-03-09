@@ -1,0 +1,932 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box; 
+}
+.containercomplete{
+    overflow-x: hidden;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    overflow:visible;
+}
+.intropage{
+    background-color:white;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+.intropage::after{
+    content: "";
+    background-image: url("imagerequirements/banner3.png");
+    background-size: cover;
+    opacity: 1;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.border{
+    height: 92vh;
+    border: 30px solid white;
+    position: relative;
+    z-index: 1;
+    top: 2px;
+}
+.midpage{
+    width: 500px;
+    height: 250px;
+    background-color:white;
+    position: relative;
+    top: -500px;
+    left: 100px;
+    z-index: 1;
+    padding: 10px;
+    
+}
+.midpageborder{
+    width: 495px;
+    height: 245px;
+    background-color: transparent;
+    border: 2px solid rgb(139, 107, 2);
+    position: relative;
+    top: -758px;
+    left: 112px;
+    z-index: 1;
+}
+.mainlogo{
+    position: relative;
+    top: 60px;
+    left: 60px;
+    transform: scale(1.2);
+}
+.mainheading{
+    width: 300px;
+    position: relative;
+    left: 200px;
+    top: -80px;
+    color: rgb(139, 107, 2);
+    letter-spacing: 4px;
+    font-weight:600;
+}
+.tagline{
+    position: relative;
+    left: 200px;
+    top: -80px;
+    font-weight: 100;
+    letter-spacing: 3.5px;
+    color:rgb(139, 107, 2) ;
+}
+.seperatorintropage{
+    background-color:rgb(127,112,61) ;
+    border: none;
+    height: 1px;
+    width: 250px;
+    position: relative;
+    top: -131px;
+    left: 80px;
+}
+/*header*/
+.header{
+    background-color: white;
+    height: 25px;
+    width: 100%;
+    z-index: 1;
+    position:sticky;
+    top: 0px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.10) 0px 6px 12px -2px, rgba(0, 0, 0, 0.15) 0px 3px 7px -3px;
+    overflow: hidden;
+    color: rgb(127,112,61);
+}
+.header:hover{
+    box-shadow: rgba(127,112,61,0.35) 0px 13px 27px -5px, rgba(127,112,61,0.15) 0px 8px 16px -8px;
+    transition: 0.5s;
+    transform: scale3d(1.05,1.03,1.05);
+}
+.linksheader{
+    text-decoration: none;
+    color: rgb(127,112,61);
+    font-size: large;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+   
+    letter-spacing: 3px;
+}
+.linksheader:hover{
+    transition: 0.3s;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+    color: black;    
+}
+
+
+
+
+
+
+.page1{
+    height: 100vh;
+    background-color: white;
+    background-size: 80vh;
+    position: relative;
+    top: -1px;
+}
+.bestsellercard{
+    overflow: hidden;
+    background-color: rgb(237, 237, 237);
+    width: 310px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    left: 50px;
+    transform: scale(0.9);
+}
+.bestsellercard:hover{
+    background-color: rgb(230, 230, 230);
+    transition: 0.5s;
+}
+.headingpage1{
+    font-size: xxx-large;
+    position: relative;
+    left: 625px;
+    top: 120px;
+    color: rgb(127,112,61);
+}
+.headimg{
+    height: 350px;
+}
+.headimg:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    opacity: 1;
+}    
+.prodimage{
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.headingitem{
+    font-size: xx-large;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+.price{
+    font-size: x-large;
+    margin-top: 30px;
+    color: rgb(127,112,61);
+}
+.item1{
+    position: relative;
+    top: 110px;
+    left: 40px;
+}
+.item2{
+    position: relative;
+    top: -450px;
+    left: 400px;
+}
+.item3{
+    position: relative;
+    top: -1010px;
+    left: 760px;
+}
+.item4{
+    position: relative;
+    top: -1570px;
+    left: 1120px;
+}
+.bestsellercompletediv{
+    position: relative;
+    top: 10px;
+}
+
+
+
+
+
+.page2{
+    height: 200vh;
+    width: 1550px;
+    background-color: rgb(245, 245, 245);
+    scroll-snap-align: start;
+    position: relative;
+    top: -25px;
+    overflow: hidden;
+}
+.headingpage2{
+    position: relative;
+    top: 50px;
+    left: 720px;
+    letter-spacing: 10px;
+    font-weight: 100;
+    color:rgb(127,112,61) ;
+}
+/*shopcard*/
+.shopcardscomplete{
+    position: relative;
+    top: -50px;
+    height: 190vh;
+}
+.shopcard{
+    text-align: center;
+    width: 280px;
+    height: 450px;
+    background-color:rgb(245, 245, 245);
+    padding: 10px;
+    transform: scale(0.8);
+    position: relative;
+    border-radius: 10px;
+    top: 100px;
+    left: 150px;
+}
+.shopcard:hover{
+    background-color:rgb(220, 220, 220) ;
+    transition: 0.5s;
+}
+.shopcardimage{
+    width: 280px;
+    overflow: hidden;
+    height: 250px;
+    border-radius: 10px;
+}
+.imageonesecond{
+    position: relative;
+    top: -251px;
+    opacity: 0;
+}
+.imageonesecond:hover{
+    opacity: 1;
+    transition: 1s;
+}
+.nameofproduct{
+    font-size: x-large;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+}
+.priceshopcard{
+    font-size: x-large;
+    margin-top: 10px;
+    text-align: center;
+}
+.addtocart{
+    width: 240px;
+    height: 40px;
+    border: none;
+    margin-top: 15px;
+    font-size:small;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    border-radius: 5px;
+
+}
+.buynow{
+    width: 240px;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+    font-size:small;
+    border-radius: 5px;
+    background-color:rgb(57, 57, 57);
+    color: white;
+}
+.buynow:hover,.addtocart:hover{
+    background-color: rgb(127,112,61);
+    transition: 0.4s;
+}
+/*card position*/
+.secondcard,.thirdcard,.fourthcard,.fifthcard,.sixthcard,.seventhcard,.eightthcard{
+    position: relative;
+    top: -370px;
+    left: 450px;
+}
+.thirdcard,.seventhcard{
+    top: -840px;
+    left: 760px;
+}
+.fourthcard,.eightthcard{
+    top: -1310px;
+    left: 1060px;
+}
+.fifthcard,.ninthcard{
+    top: -1350px;
+    left: 150px;
+}
+.sixthcard,.tenthcard{
+    top: -1820px;
+}
+.seventhcard,.eleventhcard{
+    top: -2290px;
+}
+.eightthcard,.twelfthcard{
+    top: -2760px;
+}
+.ninthcard{
+    top: -2800px;
+}
+.tenthcard{
+    top: -3270px;
+    left: 450px;
+}
+.eleventhcard{
+    top: -3740px;
+    left: 760px;
+}
+.twelfthcard{
+    top: -4210px;
+    left: 1060px;
+}
+.explorepg2{
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    top: -80px;
+    left: 1080px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    font-size: medium;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+.explorepg2:hover{
+    background-color: rgb(127,112,61);
+    color: white;
+    transition: 0.5s;
+}
+
+/*page 3*/
+.page3{
+    height: 105vh;
+    background-color: black;
+    position: relative;
+    top: -25px;
+    text-align: center;
+    overflow: hidden;
+}
+.headingpg3{
+    color: rgb(127,112,61);
+    font-weight: 100;
+    letter-spacing: 6px;
+    font-size: xx-large;
+    position: relative;
+    top: 50px;
+}
+.seperator1{
+    width: 450px;
+    transform: rotate(90deg);
+    position: relative;
+    top: 350px;
+}
+.blackimagepg3{
+    position: relative;
+    right: 400px;
+    top: 50px;
+}
+.textpg3{
+    color: white;
+    width: 700px;
+    font-size: 40px;
+    position: relative;
+    top: -520px;
+    left: 800px;
+}
+.bhead{
+    font-size: 120px;
+    font-weight: 400;
+    position: relative;
+    top: -70px;
+    color:rgb(127,112,61) ;
+}
+.explorepg3{
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    position: relative;
+    top: -650px;
+    font-size: large;
+}
+.explorepg3:hover{
+    background-color:rgb(127,112,61) ;
+    color: white;
+    transition: 0.5s;
+    width: 300px;
+    
+}
+
+
+
+/*page4*/
+.page4{
+    height: 100vh;
+    background-color:black;
+    position: relative;
+    top: -47px;
+    text-align: center;
+    overflow: hidden;
+}
+.headingpg4{
+    color: rgb(127,112,61);
+    font-size: xx-large;
+    font-weight: 100;
+    position: relative;
+    top: 50px;
+    letter-spacing: 5px;
+
+}
+.categorylinks{
+    position: relative;
+    top: 250px;
+    left: -500px;
+}
+.catimghover:hover{
+    filter: invert(1);
+    transition: 0.5s;
+}
+.link2{
+    top: 70px;
+    left: -300px;
+}
+.link3{
+    top: -105px;
+    left: -100px;
+}
+.link4{
+    top: -300px;
+    left: 100px;
+}
+.link5{
+    top: -485px;
+    left: 300px;
+}
+.link6{
+    top: -670px;
+    left: 500px;
+}
+.arrowspg4{
+    position: relative;
+    top: -600px;
+}
+.arrow1{
+    position: relative;
+    top: -380px;
+    left: -60px;
+}
+.arrow3{
+    position: relative;
+    top: -80px;
+    left: -230px;
+}
+.arrow2{
+    position: relative;
+    left: 350px;
+    top: -80px;
+}
+.arrow4{
+    position: relative;
+    top: -380px;
+    left: -150px;
+    transform: rotate(-0deg);
+}
+.arrow5{
+    position: relative;
+    top: -120px;
+    left: 400px;
+    transform: rotate(80deg);
+}
+.arrow7{
+    position: relative;
+    transform: rotate(180deg);
+    top: -390px;
+    left: -100px;
+}
+/*names*/
+.categorynames{
+    position: relative;
+    top: -600px;
+}
+.catname1{
+    position: relative;
+    top: -580px;
+    left: -150px;
+}
+.catname2{
+    position: relative;
+    top: -100px;
+    left: -200px;
+}
+.catname3{
+    position: relative;
+    top: -590px;
+}
+.catname4{
+    position: relative;
+    top: -200px;
+    left: 190px;
+}
+.catname5{
+    position: relative;
+    top: -600px;
+    left: 130px;
+}
+.catname6{
+    position: relative;
+    top: -200px;
+    left: 300px;
+}
+/*page5*/
+.page5{
+    height: 70vh;
+    background-color: rgb(127,112,61);
+    position: relative;
+    top: -69px;
+    text-align: center;
+    color: white;
+
+}
+.headingpg5{
+    font-size: xx-large;
+    font-weight: 100;
+    position: relative;
+    top: 25px;
+    letter-spacing: 6px;
+}
+.textpg5{
+    width: 800px;
+    text-align: justify;
+    position: relative;
+    top: 40px;
+    left: 350px;
+    font-size:large;
+    letter-spacing: 3px;
+    line-height: 25px;
+}
+.aboutusimages{
+    position: relative;
+    top: 100px;
+}
+.craftsmanaboutus{
+    position: relative;
+    left: -100px;
+}
+.educationaboutus{
+    position: relative;
+    left: -20px;
+}
+.employementaboutus{
+    position: relative;
+    left: 40px;
+}
+.handmadeaboutus{
+    position: relative;
+    left: 80px;
+}
+/*page6*/
+.page6{
+    height: 80vh;
+    background-color:white;
+    position: relative;
+    top: -101px;
+    text-align: center;
+}
+.headingpg6{
+    font-size:xxx-large;
+    font-weight: 100;
+    position: relative;
+    top: 50px;
+    letter-spacing: 6px;
+}
+.contactformpart1{
+    position: relative;
+    top: 90px;
+    left: 480px;
+    width: 250px;
+    text-align: left;
+}
+.mailid{
+    text-decoration: none;
+    color: rgb(127,112,61);
+    position: relative;
+    top: 40px;
+    left: -25px;
+    letter-spacing: 4px;
+}
+.phnno{
+    text-decoration: none;
+    color: rgb(127,112,61);
+    position: relative;
+    top: 40px;
+    left: 15px;
+    letter-spacing: 4px;
+}
+.address{
+    position: relative;
+    top: 50px;
+    letter-spacing: 3px;
+}
+.firstname,.lastname,.email,.subject,.message{
+    font-size: large;
+    position: relative;
+    letter-spacing: 2px;
+    color: rgb(127,112,61);
+}
+.firstnameinp,.lastnameinp,.emailinp,.subjectinp{
+    width: 100%;
+    height: 37px;
+    font-size: large;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color:rgb(127,112,61) ;
+    border: 1px solid rgb(127,112,61);
+}
+.firstnameinp:focus,.lastnameinp:focus,.emailinp:focus,.subjectinp:focus{
+    background-color:rgb(255, 248, 224) ;
+
+}
+.contactformpart2{
+    position: relative;
+    top: -234px;
+    left: 770px;
+    width: 250px;
+    text-align: left;
+}
+.messageinp{
+    width: 100%;
+    height: 196px;
+}
+.resetbutton,.submitbutton{
+    width: 120px;
+    height: 40px;
+    border: 1px solid rgb(127,112,61);
+    background-color: white;
+    font-size: large;
+    position: relative;
+    top: 23px;
+    color: rgb(127,112,61);
+    letter-spacing: 4px;
+}
+.submitbutton{
+    left: 15px;
+}
+.resetbutton:hover,.submitbutton:hover{
+    background-color: rgb(127,112,61);
+    border: none;
+    transition:0.5s ;
+    border-radius: 5px;
+    color: white;
+    transform: scale(1.1);
+}
+.page7{
+    height: 70vh;
+    background-color: #1d6679;
+    position: relative;
+    top: -101px;
+}
+/*counter*/
+.counterpg7{
+    position: relative;
+    top: 400px;
+}
+.wrapper {
+    position: absolute;
+    width: 80vw;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  .containerpg3 {
+    width: 28vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+    border-radius: 0.5em;
+    background-color: #fefefe62;
+    border-bottom: 10px solid #0a1e51;
+    transform: scale(0.93);
+  }
+  i {
+    color:#0a1e51;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  span.num {
+    color: #0a1e51;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+  }
+  span.text {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 500;
+    line-height: 0;
+    font-size: larger;
+  }
+  .firstcardpg7{
+    position: relative;
+    left: 80px;
+    top: -150px;
+  }
+  .secondcardpg7{
+    position: relative;
+    left: 30px;
+    top: -150px;
+  }
+  .thirdcardpg7{
+    position: relative;
+    left:-10px;
+    top: -150px;
+  }
+  .fourthcardpg7{
+    position: relative;
+    top: -150px;
+    left: -50px;
+  }
+  @media screen and (max-width: 1024px) {
+    .wrapper {
+      width: 85vw;
+    }
+    .containerpg3 {
+      height: 26vmin;
+      width: 26vmin;
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      width: 90vw;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .containerpg3 {
+      width: calc(50% - 40px);
+      height: 30vmin;
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .wrapper {
+      gap: 15px;
+    }
+    .containerpg3 {
+      width: 100%;
+      height: 25vmin;
+      font-size: 8px;
+    }
+  }
+
+
+/*page8*/
+.page8{
+    height: 70vh;
+    background-color:rgb(45,45,45) ;
+    position: relative;
+    top: -101px;
+    overflow:hidden;
+}
+/*footer*/
+.footerpg8{
+    position: relative;
+    top: -70px;
+}
+.imgpg8{
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+.col1,.col2,.col3{
+    font-size:medium;
+    color: white;
+    position: relative;
+    left: 650px;
+    top: -200px;
+}
+.contactus1,.contactus2{
+    color: orange;
+    position: relative;
+    top: 70px;
+    font-size: medium;
+}
+.contactus1:hover,.contactus2:hover,.ch1:hover,.ch2:hover,.ch3:hover,.ch4:hover,.ch5:hover,.colo3:hover{
+    color: skyblue;
+}
+.contactus2{
+    top: 80px;
+}
+.col2{
+    top: -340px;
+    left: 950px;
+}
+.channel{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 70px;
+    font-size: medium;
+}
+.ch2,.ch3,.ch4,.ch5{
+    border-top: 10px;
+}
+.col3{
+    top: -595px;
+    left: 1200px;
+}
+.colo3{
+    color: white;
+    position: relative;
+    top: 70px;
+}
+.icons{
+   /* padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    position: relative;*/
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.iconspg8{
+    position: relative;
+    top: -420px;
+    left: 1100px;
+}
+.fa:hover {
+    opacity: 0.7;
+    background-color: white;
+    color: black;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 10px;
+  }
+  .fa-instagram{
+    background: #df036a;
+    color: white;
+    border-radius: 10px;
+  } 
+  .fa-youtube{
+    position: relative;
+    left: -472px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 10px;
+  }
+.iconsss{
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.iconsss:hover{
+    background-color: rgba(0, 0, 0, 45%);
+}
+.fa-google{
+    background: #f09000;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.copyright{
+    position: relative;
+    top: -50px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
