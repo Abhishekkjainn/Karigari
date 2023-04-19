@@ -100,7 +100,7 @@ html{
     background-position: center;
     background-size: cover;
     filter: brightness();
-    /*animation: backgroundanimation 60s infinite;*/ 
+    animation: backgroundanimation 60s infinite;
 }
 /*explore button*/
 .explorebuttonpg1,.catcardbutton{
